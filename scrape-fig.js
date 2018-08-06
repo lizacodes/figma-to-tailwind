@@ -6,7 +6,7 @@ const snakeCase = require('lodash.snakecase');
 const AUTH_TOKEN = '<INSERT_AUTH_TOKEN_HERE>';
 const API_ROOT = 'https://api.figma.com';
 
-const fileKey = '<INSERT_FILE_KEY_HERE>';
+const fileKey = 'TTjfrS4jXao5JIiLHOraTRQu';
 
 const getFile = async () => {
   try {
@@ -21,7 +21,6 @@ const getFile = async () => {
   } catch(e) {
     console.log(e);
   }
-
 }
 
 const parseColours = (group, figmaStyles, colours = {}) => {
@@ -43,7 +42,6 @@ const parseColours = (group, figmaStyles, colours = {}) => {
 
 getFile().then((file) => {
   const colours = parseColours(file.document, file.styles);
-
   fs.writeFileSync('./colours.json', JSON.stringify(colours, null, 2) , 'utf-8');
 }).catch((e) => {
   console.log(e);
