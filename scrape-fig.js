@@ -1,5 +1,4 @@
 const fs = require('fs');
-const util = require('util');
 const request = require('request-promise');
 const snakeCase = require('lodash.snakecase');
 
@@ -23,21 +22,17 @@ const getFile = async () => {
   }
 }
 
-const parseColours = (group, figmaStyles, colours = {}) => {
-  if (group.styles && group.styles.fill && figmaStyles[group.styles.fill]) {
-    const { r, g, b, a } = group.fills[0].color;
-
-    colours[snakeCase(figmaStyles[group.styles.fill].name)] = `rgba(${Math.floor(r * 256)},${Math.round(g * 256)},${Math.round(b * 256)},${a})`;
+const groupHasColours = (group, figmaStyles) => (group.styles && group.styles.fill && figmaStyles[group.styles.fill])
+const getColourKey = (group, figmaStyles) => snakeCase(figmaStyles[group.styles.fill].name)
+const rgbDecToInt = (n) => Math.round(n * 256)
+const generateRgb = ({ r, g, b, a }) => `rgba(${[r, g, b].map(rgbDecToInt).join(',')},${a})`
+const parseColours = (group, figmaStyles) => {
+  const currentGroupColours = {
+    ...(groupHasColours(group, figmaStyles) && { [getColourKey(group, figmaStyles)]: generateRgb(group.fills[0].color) })
   }
-
-  if (group.children) {
-    for (let index = 0; index < group.children.length; index++) {
-      const child = group.children[index];
-      parseColours(child, figmaStyles, colours);
-    }
-  }
-
-  return colours;
+  return group.children
+    ? group.children.reduce((childColours, child) => ({ ...childColours, ...parseColours(child, figmaStyles) }), currentGroupColours)
+    : currentGroupColours
 }
 
 const scrapeFig = () =>
