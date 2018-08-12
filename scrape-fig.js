@@ -18,7 +18,7 @@ const getFile = async () => {
     });
 
     return JSON.parse(response);
-  } catch(e) {
+  } catch (e) {
     console.log(e);
   }
 }
@@ -27,7 +27,7 @@ const parseColours = (group, figmaStyles, colours = {}) => {
   if (group.styles && group.styles.fill && figmaStyles[group.styles.fill]) {
     const { r, g, b, a } = group.fills[0].color;
 
-    colours[snakeCase(figmaStyles[group.styles.fill].name)] = `rgba(${Math.floor(r*256)},${Math.round(g*256)},${Math.round(b*256)},${a})`;
+    colours[snakeCase(figmaStyles[group.styles.fill].name)] = `rgba(${Math.floor(r * 256)},${Math.round(g * 256)},${Math.round(b * 256)},${a})`;
   }
 
   if (group.children) {
@@ -40,9 +40,12 @@ const parseColours = (group, figmaStyles, colours = {}) => {
   return colours;
 }
 
-getFile().then((file) => {
-  const colours = parseColours(file.document, file.styles);
-  fs.writeFileSync('./colours.json', JSON.stringify(colours, null, 2) , 'utf-8');
-}).catch((e) => {
-  console.log(e);
-});
+const scrapeFig = () =>
+  getFile().then((file) => {
+    const colours = parseColours(file.document, file.styles);
+    fs.writeFileSync('./colours.json', JSON.stringify(colours, null, 2), 'utf-8');
+  }).catch((e) => {
+    console.log(e);
+  });
+
+module.exports = { parseColours, scrapeFig }
