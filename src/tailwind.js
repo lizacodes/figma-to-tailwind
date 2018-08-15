@@ -43,6 +43,7 @@ View the full documentation at https://tailwindcss.com.
 */
 
 const colors = require('../colours.json');
+const textSizes = require('../text-sizes.json');
 
 module.exports = {
 

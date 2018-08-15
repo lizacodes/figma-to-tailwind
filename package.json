@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "lodash.isequal": "^4.5.0",
-    "lodash.snakecase": "^4.1.1"
+    "lodash.camelcase": "^4.1.1"
   },
   "description": ""
 }
