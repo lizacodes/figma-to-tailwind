@@ -1,7 +1,7 @@
 {
-  "name": "Colours",
-  "lastModified": "2018-08-04T10:18:21.461Z",
-  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/d50611ff-7dab-4fd0-a5a8-1b906b902f36",
+  "name": "Experimental style guide",
+  "lastModified": "2018-08-19 03:00:52.192027",
+  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/482471ea-d7a6-4edb-9faa-2740f5f1e9d1",
   "document": {
     "id": "0:0",
     "name": "Document",
@@ -13,154 +13,13 @@
         "type": "CANVAS",
         "children": [
           {
-            "id": "1:45",
-            "name": "A neutral colour tha",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2390,
-              "y": 1380.4000244140625,
-              "width": 297,
-              "height": 48
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "A neutral colour that is mainly used  to show notifications. ",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:46",
-            "name": "This colour mainly u",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2752,
-              "y": 1380.4000244140625,
-              "width": 285,
-              "height": 72
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "This colour mainly used to show success messages & actions that returned positive results.",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:47",
-            "name": "A neutral colour tha",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 3117,
-              "y": 988.4000244140625,
-              "width": 297,
-              "height": 48
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "A neutral colour that is mainly used  to show active property status.",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
             "id": "1:48",
             "name": "Gold",
             "type": "TEXT",
             "blendMode": "PASS_THROUGH",
             "absoluteBoundingBox": {
-              "x": 2751,
-              "y": 914.4000244140625,
+              "x": 2558,
+              "y": 744.5,
               "width": 106,
               "height": 24
             },
@@ -187,150 +46,9 @@
             "effects": [],
             "characters": "Gold",
             "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:49",
-            "name": "HEX: #FBB116",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2751,
-              "y": 939.4000244140625,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "HEX: #FBB116",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:50",
-            "name": "PMS: 1235 C",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2751,
-              "y": 960.4000244140625,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "PMS: 1235 C",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:51",
-            "name": "Gold is used to repr",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2751,
-              "y": 988.4000244140625,
-              "width": 297,
-              "height": 72
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "Gold is used to represent achievement and reward. Mainly use for awards, high ranking, shortlisting etc.",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
               "fontSize": 16,
               "textAlignHorizontal": "LEFT",
               "textAlignVertical": "TOP",
@@ -348,7 +66,7 @@
             "blendMode": "PASS_THROUGH",
             "absoluteBoundingBox": {
               "x": 2390,
-              "y": 1305.4000244140625,
+              "y": 985.4000244140625,
               "width": 106,
               "height": 24
             },
@@ -375,9 +93,9 @@
             "effects": [],
             "characters": "Sky",
             "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
               "fontSize": 16,
               "textAlignHorizontal": "LEFT",
               "textAlignVertical": "TOP",
@@ -394,8 +112,8 @@
             "type": "TEXT",
             "blendMode": "PASS_THROUGH",
             "absoluteBoundingBox": {
-              "x": 2752,
-              "y": 1305.4000244140625,
+              "x": 2559,
+              "y": 985.4000244140625,
               "width": 106,
               "height": 24
             },
@@ -422,9 +140,9 @@
             "effects": [],
             "characters": "Just Green",
             "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
               "fontSize": 16,
               "textAlignHorizontal": "LEFT",
               "textAlignVertical": "TOP",
@@ -434,367 +152,6 @@
             },
             "characterStyleOverrides": [],
             "styleOverrideTable": {}
-          },
-          {
-            "id": "1:54",
-            "name": "HEX: #0093FF",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2390,
-              "y": 1330.4000244140625,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "HEX: #0093FF",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:55",
-            "name": "PMS: 2925 C",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2390,
-              "y": 1351.4000244140625,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "PMS: 2925 C",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:56",
-            "name": "HEX: #25A960",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2752,
-              "y": 1330.4000244140625,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "HEX: #25A960",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:57",
-            "name": "PMS: 3405 C",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2752,
-              "y": 1350.4000244140625,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "PMS: 3405 C",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:58",
-            "name": "colour/gold",
-            "type": "INSTANCE",
-            "blendMode": "PASS_THROUGH",
-            "children": [
-              {
-                "id": "I1:58;1:12",
-                "name": "Oval 2 Copy 14",
-                "type": "VECTOR",
-                "blendMode": "PASS_THROUGH",
-                "absoluteBoundingBox": {
-                  "x": 2751,
-                  "y": 770,
-                  "width": 106,
-                  "height": 106
-                },
-                "constraints": {
-                  "vertical": "SCALE",
-                  "horizontal": "SCALE"
-                },
-                "fills": [
-                  {
-                    "type": "SOLID",
-                    "blendMode": "NORMAL",
-                    "color": {
-                      "r": 0.984313725490196,
-                      "g": 0.6941176470588235,
-                      "b": 0.08627450980392157,
-                      "a": 1
-                    }
-                  }
-                ],
-                "strokes": [
-                  {
-                    "type": "SOLID",
-                    "blendMode": "NORMAL",
-                    "visible": false,
-                    "color": {
-                      "r": 0.592156862745098,
-                      "g": 0.592156862745098,
-                      "b": 0.592156862745098,
-                      "a": 1
-                    }
-                  }
-                ],
-                "strokeWeight": 0,
-                "strokeAlign": "CENTER",
-                "styles": {
-                  "fill": "1:99"
-                },
-                "exportSettings": [],
-                "effects": []
-              }
-            ],
-            "absoluteBoundingBox": {
-              "x": 2751,
-              "y": 770,
-              "width": 106,
-              "height": 106
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "backgroundColor": {
-              "r": 0,
-              "g": 0,
-              "b": 0,
-              "a": 0
-            },
-            "clipsContent": false,
-            "layoutGrids": [],
-            "exportSettings": [],
-            "effects": [],
-            "componentId": "1:13"
-          },
-          {
-            "id": "1:59",
-            "name": "Oval 2",
-            "type": "VECTOR",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2390,
-              "y": 1160,
-              "width": 106,
-              "height": 106
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0,
-                  "g": 0.4588235294117647,
-                  "b": 0.8941176470588236,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "visible": false,
-                "color": {
-                  "r": 0.592156862745098,
-                  "g": 0.592156862745098,
-                  "b": 0.592156862745098,
-                  "a": 1
-                }
-              }
-            ],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "styles": {
-              "fill": "1:101"
-            },
-            "exportSettings": [],
-            "effects": []
-          },
-          {
-            "id": "1:60",
-            "name": "Oval 2 Copy",
-            "type": "VECTOR",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2752,
-              "y": 1160,
-              "width": 106,
-              "height": 106
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.13725490196078433,
-                  "g": 0.611764705882353,
-                  "b": 0.3058823529411765,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "visible": false,
-                "color": {
-                  "r": 0.592156862745098,
-                  "g": 0.592156862745098,
-                  "b": 0.592156862745098,
-                  "a": 1
-                }
-              }
-            ],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "styles": {
-              "fill": "1:102"
-            },
-            "exportSettings": [],
-            "effects": []
           },
           {
             "id": "1:61",
@@ -802,7 +159,7 @@
             "type": "TEXT",
             "blendMode": "PASS_THROUGH",
             "absoluteBoundingBox": {
-              "x": 3117,
+              "x": 2726,
               "y": 425.3999938964844,
               "width": 106,
               "height": 24
@@ -830,9 +187,9 @@
             "effects": [],
             "characters": "Steel",
             "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
               "fontSize": 16,
               "textAlignHorizontal": "LEFT",
               "textAlignVertical": "TOP",
@@ -842,177 +199,6 @@
             },
             "characterStyleOverrides": [],
             "styleOverrideTable": {}
-          },
-          {
-            "id": "1:62",
-            "name": "HEX: #1A222C",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 3117,
-              "y": 450.3999938964844,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "HEX: #1A222C",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:63",
-            "name": "RMA primary brand co",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 3117,
-              "y": 503.3999938964844,
-              "width": 297,
-              "height": 72
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "RMA primary brand colour, use for text and as primary dark colour across the site and related marketing materials.",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:64",
-            "name": "colour/steel",
-            "type": "INSTANCE",
-            "blendMode": "PASS_THROUGH",
-            "children": [
-              {
-                "id": "I1:64;1:15",
-                "name": "Oval 2 Copy 17",
-                "type": "VECTOR",
-                "blendMode": "PASS_THROUGH",
-                "absoluteBoundingBox": {
-                  "x": 3117,
-                  "y": 281,
-                  "width": 106,
-                  "height": 106
-                },
-                "constraints": {
-                  "vertical": "SCALE",
-                  "horizontal": "SCALE"
-                },
-                "fills": [
-                  {
-                    "type": "SOLID",
-                    "blendMode": "NORMAL",
-                    "color": {
-                      "r": 0.10196078431372549,
-                      "g": 0.13333333333333333,
-                      "b": 0.17254901960784313,
-                      "a": 1
-                    }
-                  }
-                ],
-                "strokes": [
-                  {
-                    "type": "SOLID",
-                    "blendMode": "NORMAL",
-                    "visible": false,
-                    "color": {
-                      "r": 0.592156862745098,
-                      "g": 0.592156862745098,
-                      "b": 0.592156862745098,
-                      "a": 1
-                    }
-                  }
-                ],
-                "strokeWeight": 0,
-                "strokeAlign": "CENTER",
-                "styles": {
-                  "fill": "1:97"
-                },
-                "exportSettings": [],
-                "effects": []
-              }
-            ],
-            "absoluteBoundingBox": {
-              "x": 3117,
-              "y": 281,
-              "width": 106,
-              "height": 106
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "backgroundColor": {
-              "r": 0,
-              "g": 0,
-              "b": 0,
-              "a": 0
-            },
-            "clipsContent": false,
-            "layoutGrids": [],
-            "exportSettings": [],
-            "effects": [],
-            "componentId": "1:16"
           },
           {
             "id": "1:65",
@@ -1021,7 +207,7 @@
             "blendMode": "PASS_THROUGH",
             "absoluteBoundingBox": {
               "x": 2390,
-              "y": 914.4000244140625,
+              "y": 744.5,
               "width": 106,
               "height": 24
             },
@@ -1048,9 +234,9 @@
             "effects": [],
             "characters": "Cherry",
             "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
               "fontSize": 16,
               "textAlignHorizontal": "LEFT",
               "textAlignVertical": "TOP",
@@ -1067,8 +253,8 @@
             "type": "TEXT",
             "blendMode": "PASS_THROUGH",
             "absoluteBoundingBox": {
-              "x": 3117,
-              "y": 914.4000244140625,
+              "x": 2726,
+              "y": 744.5,
               "width": 106,
               "height": 24
             },
@@ -1095,9 +281,9 @@
             "effects": [],
             "characters": "Violet",
             "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
               "fontSize": 16,
               "textAlignHorizontal": "LEFT",
               "textAlignVertical": "TOP",
@@ -1107,418 +293,6 @@
             },
             "characterStyleOverrides": [],
             "styleOverrideTable": {}
-          },
-          {
-            "id": "1:67",
-            "name": "HEX: #E51A41",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2390,
-              "y": 939.4000244140625,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "HEX: #E51A41",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:68",
-            "name": "PMS: 192 C",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2390,
-              "y": 959.4000244140625,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "PMS: 192 C",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:69",
-            "name": "Cherry is used to at",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2390,
-              "y": 988.4000244140625,
-              "width": 297,
-              "height": 120
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "Cherry is used to attract attention that requires/encourages immediate action - sold properties to turn into reviews, error messages that need to be addressed, Notifications we want to be actioned etc.",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "7:1",
-            "name": "Rectangle",
-            "type": "RECTANGLE",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2164,
-              "y": 387,
-              "width": 87,
-              "height": 63
-            },
-            "constraints": {
-              "vertical": "TOP",
-              "horizontal": "LEFT"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.7607843137254902,
-                  "g": 0.01568627450980392,
-                  "b": 0.9137254901960784,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 1,
-            "strokeAlign": "INSIDE",
-            "exportSettings": [],
-            "effects": []
-          },
-          {
-            "id": "1:70",
-            "name": "HEX: #D400FF",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 3117,
-              "y": 939.4000244140625,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "HEX: #D400FF",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:71",
-            "name": "PMS: Purple C",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 3117,
-              "y": 959.4000244140625,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "PMS: Purple C",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:72",
-            "name": "Oval 2 Copy 13",
-            "type": "VECTOR",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2390,
-              "y": 770,
-              "width": 106,
-              "height": 106
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.8980392156862745,
-                  "g": 0.10196078431372549,
-                  "b": 0.2549019607843137,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "visible": false,
-                "color": {
-                  "r": 0.592156862745098,
-                  "g": 0.592156862745098,
-                  "b": 0.592156862745098,
-                  "a": 1
-                }
-              }
-            ],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "styles": {
-              "fill": "1:98"
-            },
-            "exportSettings": [],
-            "effects": []
-          },
-          {
-            "id": "1:73",
-            "name": "Oval 2 Copy 2",
-            "type": "VECTOR",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 3117,
-              "y": 770,
-              "width": 106,
-              "height": 106
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.7607843137254902,
-                  "g": 0.01568627450980392,
-                  "b": 0.9137254901960784,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "visible": false,
-                "color": {
-                  "r": 0.592156862745098,
-                  "g": 0.592156862745098,
-                  "b": 0.592156862745098,
-                  "a": 1
-                }
-              }
-            ],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "styles": {
-              "fill": "1:100"
-            },
-            "exportSettings": [],
-            "effects": []
-          },
-          {
-            "id": "1:74",
-            "name": "Oval 2 Copy 13",
-            "type": "VECTOR",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2385,
-              "y": 279,
-              "width": 106,
-              "height": 106
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.18823529411764706,
-                  "g": 0.8313725490196079,
-                  "b": 0.7843137254901961,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "visible": false,
-                "color": {
-                  "r": 0.592156862745098,
-                  "g": 0.592156862745098,
-                  "b": 0.592156862745098,
-                  "a": 1
-                }
-              }
-            ],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "styles": {
-              "fill": "1:95"
-            },
-            "exportSettings": [],
-            "effects": []
           },
           {
             "id": "1:75",
@@ -1526,7 +300,7 @@
             "type": "TEXT",
             "blendMode": "PASS_THROUGH",
             "absoluteBoundingBox": {
-              "x": 2751,
+              "x": 2558,
               "y": 424.3999938964844,
               "width": 106,
               "height": 24
@@ -1554,9 +328,9 @@
             "effects": [],
             "characters": "Mint Dark",
             "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
               "fontSize": 16,
               "textAlignHorizontal": "LEFT",
               "textAlignVertical": "TOP",
@@ -1566,148 +340,6 @@
             },
             "characterStyleOverrides": [],
             "styleOverrideTable": {}
-          },
-          {
-            "id": "1:76",
-            "name": "HEX: #00837B",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2751,
-              "y": 449.3999938964844,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "HEX: #00837B",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:77",
-            "name": "Mint Dark is used fo",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2751,
-              "y": 503.3999938964844,
-              "width": 256,
-              "height": 96
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "Mint Dark is used for all non-primary CTA buttons, links, hover over, and top level highlights on white background.",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:78",
-            "name": "Oval 2 Copy 14",
-            "type": "VECTOR",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2751,
-              "y": 279,
-              "width": 106,
-              "height": 106
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0,
-                  "g": 0.5137254901960784,
-                  "b": 0.4823529411764706,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "visible": false,
-                "color": {
-                  "r": 0.592156862745098,
-                  "g": 0.592156862745098,
-                  "b": 0.592156862745098,
-                  "a": 1
-                }
-              }
-            ],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "styles": {
-              "fill": "1:96"
-            },
-            "exportSettings": [],
-            "effects": []
           },
           {
             "id": "1:79",
@@ -1743,244 +375,9 @@
             "effects": [],
             "characters": "Mint",
             "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:80",
-            "name": "HEX: #30D4C8",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2385,
-              "y": 450.3999938964844,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "HEX: #30D4C8",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:81",
-            "name": "PMS: 532 C",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 3117,
-              "y": 470.3999938964844,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "PMS: 532 C",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:82",
-            "name": "PMS: 7717 C",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2751,
-              "y": 469.3999938964844,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "PMS: 7717 C",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:83",
-            "name": "PMS: 3255 C",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2385,
-              "y": 470.3999938964844,
-              "width": 138,
-              "height": 24
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "PMS: 3255 C",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
-              "fontSize": 16,
-              "textAlignHorizontal": "LEFT",
-              "textAlignVertical": "TOP",
-              "letterSpacing": 0,
-              "lineHeightPx": 24,
-              "lineHeightPercent": 128
-            },
-            "characterStyleOverrides": [],
-            "styleOverrideTable": {}
-          },
-          {
-            "id": "1:84",
-            "name": "Mint is our primary",
-            "type": "TEXT",
-            "blendMode": "PASS_THROUGH",
-            "absoluteBoundingBox": {
-              "x": 2385,
-              "y": 503.3999938964844,
-              "width": 269,
-              "height": 96
-            },
-            "constraints": {
-              "vertical": "SCALE",
-              "horizontal": "SCALE"
-            },
-            "fills": [
-              {
-                "type": "SOLID",
-                "blendMode": "NORMAL",
-                "color": {
-                  "r": 0.10196078431372549,
-                  "g": 0.13333333333333333,
-                  "b": 0.17254901960784313,
-                  "a": 1
-                }
-              }
-            ],
-            "strokes": [],
-            "strokeWeight": 0,
-            "strokeAlign": "CENTER",
-            "exportSettings": [],
-            "effects": [],
-            "characters": "Mint is our primary brand colour, it’s mainly used for primary CTA buttons, highlights with bold text in maximum 3 words.",
-            "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
               "fontSize": 16,
               "textAlignHorizontal": "LEFT",
               "textAlignVertical": "TOP",
@@ -1998,8 +395,8 @@
             "blendMode": "PASS_THROUGH",
             "absoluteBoundingBox": {
               "x": 2385,
-              "y": 188.89999389648438,
-              "width": 256,
+              "y": 189,
+              "width": 351,
               "height": 45
             },
             "constraints": {
@@ -2025,9 +422,197 @@
             "effects": [],
             "characters": "Primary colour",
             "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
+              "fontSize": 36,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": 0,
+              "lineHeightPx": 45,
+              "lineHeightPercent": 106.66666666666667
+            },
+            "characterStyleOverrides": [],
+            "styleOverrideTable": {}
+          },
+          {
+            "id": "44:0",
+            "name": "Primary colour",
+            "type": "TEXT",
+            "blendMode": "PASS_THROUGH",
+            "absoluteBoundingBox": {
+              "x": 3034,
+              "y": 189,
+              "width": 351,
+              "height": 45
+            },
+            "constraints": {
+              "vertical": "SCALE",
+              "horizontal": "SCALE"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.10196078431372549,
+                  "g": 0.13333333333333333,
+                  "b": 0.17254901960784313,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 0,
+            "strokeAlign": "CENTER",
+            "exportSettings": [],
+            "effects": [],
+            "characters": "Font sizes",
+            "style": {
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
+              "fontSize": 36,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": 0,
+              "lineHeightPx": 45,
+              "lineHeightPercent": 106.66666666666667
+            },
+            "characterStyleOverrides": [],
+            "styleOverrideTable": {}
+          },
+          {
+            "id": "48:2",
+            "name": "Primary colour",
+            "type": "TEXT",
+            "blendMode": "PASS_THROUGH",
+            "absoluteBoundingBox": {
+              "x": 3028,
+              "y": 813,
+              "width": 351,
+              "height": 45
+            },
+            "constraints": {
+              "vertical": "SCALE",
+              "horizontal": "SCALE"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.10196078431372549,
+                  "g": 0.13333333333333333,
+                  "b": 0.17254901960784313,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 0,
+            "strokeAlign": "CENTER",
+            "exportSettings": [],
+            "effects": [],
+            "characters": "Font weights",
+            "style": {
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
+              "fontSize": 36,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": 0,
+              "lineHeightPx": 45,
+              "lineHeightPercent": 106.66666666666667
+            },
+            "characterStyleOverrides": [],
+            "styleOverrideTable": {}
+          },
+          {
+            "id": "44:1",
+            "name": "Primary colour",
+            "type": "TEXT",
+            "blendMode": "PASS_THROUGH",
+            "absoluteBoundingBox": {
+              "x": 3550,
+              "y": 189,
+              "width": 351,
+              "height": 45
+            },
+            "constraints": {
+              "vertical": "SCALE",
+              "horizontal": "SCALE"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.10196078431372549,
+                  "g": 0.13333333333333333,
+                  "b": 0.17254901960784313,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 0,
+            "strokeAlign": "CENTER",
+            "exportSettings": [],
+            "effects": [],
+            "characters": "Line heights",
+            "style": {
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
+              "fontSize": 36,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": 0,
+              "lineHeightPx": 45,
+              "lineHeightPercent": 106.66666666666667
+            },
+            "characterStyleOverrides": [],
+            "styleOverrideTable": {}
+          },
+          {
+            "id": "45:0",
+            "name": "Primary colour",
+            "type": "TEXT",
+            "blendMode": "PASS_THROUGH",
+            "absoluteBoundingBox": {
+              "x": 3550,
+              "y": 569,
+              "width": 351,
+              "height": 45
+            },
+            "constraints": {
+              "vertical": "SCALE",
+              "horizontal": "SCALE"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.10196078431372549,
+                  "g": 0.13333333333333333,
+                  "b": 0.17254901960784313,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 0,
+            "strokeAlign": "CENTER",
+            "exportSettings": [],
+            "effects": [],
+            "characters": "Body copy",
+            "style": {
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Regular",
+              "fontWeight": 400,
               "fontSize": 36,
               "textAlignHorizontal": "LEFT",
               "textAlignVertical": "TOP",
@@ -2045,7 +630,7 @@
             "blendMode": "PASS_THROUGH",
             "absoluteBoundingBox": {
               "x": 2385,
-              "y": 690.9000244140625,
+              "y": 518,
               "width": 512,
               "height": 45
             },
@@ -2072,9 +657,9 @@
             "effects": [],
             "characters": "Secondary colour",
             "style": {
-              "fontFamily": "Roboto",
-              "fontPostScriptName": "Roboto-Medium",
-              "fontWeight": 500,
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
               "fontSize": 36,
               "textAlignHorizontal": "LEFT",
               "textAlignVertical": "TOP",
@@ -2086,15 +671,1453 @@
             "styleOverrideTable": {}
           },
           {
-            "id": "7:1",
-            "name": "Rectangle",
-            "type": "RECTANGLE",
+            "id": "27:18",
+            "name": "Primary colour",
+            "type": "TEXT",
             "blendMode": "PASS_THROUGH",
             "absoluteBoundingBox": {
-              "x": 2164,
-              "y": 387,
-              "width": 87,
-              "height": 63
+              "x": 2385,
+              "y": 97,
+              "width": 656,
+              "height": 92
+            },
+            "constraints": {
+              "vertical": "SCALE",
+              "horizontal": "SCALE"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.10196078431372549,
+                  "g": 0.13333333333333333,
+                  "b": 0.17254901960784313,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 0,
+            "strokeAlign": "CENTER",
+            "exportSettings": [],
+            "effects": [],
+            "characters": "Colours",
+            "style": {
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
+              "fontSize": 48,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": 0,
+              "lineHeightPx": 45,
+              "lineHeightPercent": 80
+            },
+            "characterStyleOverrides": [],
+            "styleOverrideTable": {}
+          },
+          {
+            "id": "28:16",
+            "name": "Primary colour",
+            "type": "TEXT",
+            "blendMode": "PASS_THROUGH",
+            "absoluteBoundingBox": {
+              "x": 3034,
+              "y": 97,
+              "width": 656,
+              "height": 65
+            },
+            "constraints": {
+              "vertical": "SCALE",
+              "horizontal": "SCALE"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.10196078431372549,
+                  "g": 0.13333333333333333,
+                  "b": 0.17254901960784313,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 0,
+            "strokeAlign": "CENTER",
+            "exportSettings": [],
+            "effects": [],
+            "characters": "Typography",
+            "style": {
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
+              "fontSize": 48,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": 0,
+              "lineHeightPx": 45,
+              "lineHeightPercent": 80
+            },
+            "characterStyleOverrides": [],
+            "styleOverrideTable": {}
+          },
+          {
+            "id": "45:1",
+            "name": "Primary colour",
+            "type": "TEXT",
+            "blendMode": "PASS_THROUGH",
+            "absoluteBoundingBox": {
+              "x": 3550,
+              "y": 277,
+              "width": 351,
+              "height": 45
+            },
+            "constraints": {
+              "vertical": "SCALE",
+              "horizontal": "SCALE"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.10196078431372549,
+                  "g": 0.13333333333333333,
+                  "b": 0.17254901960784313,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 0,
+            "strokeAlign": "CENTER",
+            "exportSettings": [],
+            "effects": [],
+            "characters": "Heading copy",
+            "style": {
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Regular",
+              "fontWeight": 400,
+              "fontSize": 36,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": 0,
+              "lineHeightPx": 45,
+              "lineHeightPercent": 106.66666666666667
+            },
+            "characterStyleOverrides": [],
+            "styleOverrideTable": {}
+          },
+          {
+            "id": "54:11",
+            "name": "Colours",
+            "type": "GROUP",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "1:58",
+                "name": "colour/gold",
+                "type": "INSTANCE",
+                "blendMode": "NORMAL",
+                "children": [
+                  {
+                    "id": "I1:58;1:12",
+                    "name": "Oval 2 Copy 14",
+                    "type": "VECTOR",
+                    "blendMode": "PASS_THROUGH",
+                    "absoluteBoundingBox": {
+                      "x": 2558,
+                      "y": 600.0999755859375,
+                      "width": 106,
+                      "height": 106
+                    },
+                    "constraints": {
+                      "vertical": "SCALE",
+                      "horizontal": "SCALE"
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "blendMode": "NORMAL",
+                        "color": {
+                          "r": 0.984313725490196,
+                          "g": 0.6941176470588235,
+                          "b": 0.08627450980392157,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "blendMode": "NORMAL",
+                        "visible": false,
+                        "color": {
+                          "r": 0.592156862745098,
+                          "g": 0.592156862745098,
+                          "b": 0.592156862745098,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "strokeWeight": 0,
+                    "strokeAlign": "CENTER",
+                    "styles": {
+                      "fill": "1:99"
+                    },
+                    "exportSettings": [],
+                    "effects": []
+                  }
+                ],
+                "absoluteBoundingBox": {
+                  "x": 2558,
+                  "y": 600.0999755859375,
+                  "width": 106,
+                  "height": 106
+                },
+                "constraints": {
+                  "vertical": "SCALE",
+                  "horizontal": "SCALE"
+                },
+                "backgroundColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "clipsContent": false,
+                "layoutGrids": [],
+                "exportSettings": [],
+                "effects": [],
+                "componentId": "1:13"
+              },
+              {
+                "id": "1:59",
+                "name": "Oval 2",
+                "type": "VECTOR",
+                "blendMode": "NORMAL",
+                "absoluteBoundingBox": {
+                  "x": 2390,
+                  "y": 840,
+                  "width": 106,
+                  "height": 106
+                },
+                "constraints": {
+                  "vertical": "SCALE",
+                  "horizontal": "SCALE"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0.4588235294117647,
+                      "b": 0.8941176470588236,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "visible": false,
+                    "color": {
+                      "r": 0.592156862745098,
+                      "g": 0.592156862745098,
+                      "b": 0.592156862745098,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokeWeight": 0,
+                "strokeAlign": "CENTER",
+                "styles": {
+                  "fill": "1:101"
+                },
+                "exportSettings": [],
+                "effects": []
+              },
+              {
+                "id": "1:60",
+                "name": "Oval 2 Copy",
+                "type": "VECTOR",
+                "blendMode": "NORMAL",
+                "absoluteBoundingBox": {
+                  "x": 2559,
+                  "y": 840,
+                  "width": 106,
+                  "height": 106
+                },
+                "constraints": {
+                  "vertical": "SCALE",
+                  "horizontal": "SCALE"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.13725490196078433,
+                      "g": 0.611764705882353,
+                      "b": 0.3058823529411765,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "visible": false,
+                    "color": {
+                      "r": 0.592156862745098,
+                      "g": 0.592156862745098,
+                      "b": 0.592156862745098,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokeWeight": 0,
+                "strokeAlign": "CENTER",
+                "styles": {
+                  "fill": "1:102"
+                },
+                "exportSettings": [],
+                "effects": []
+              },
+              {
+                "id": "1:64",
+                "name": "colour/steel",
+                "type": "INSTANCE",
+                "blendMode": "NORMAL",
+                "children": [
+                  {
+                    "id": "I1:64;1:15",
+                    "name": "Oval 2 Copy 17",
+                    "type": "VECTOR",
+                    "blendMode": "PASS_THROUGH",
+                    "absoluteBoundingBox": {
+                      "x": 2726,
+                      "y": 281,
+                      "width": 106,
+                      "height": 106
+                    },
+                    "constraints": {
+                      "vertical": "SCALE",
+                      "horizontal": "SCALE"
+                    },
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "blendMode": "NORMAL",
+                        "color": {
+                          "r": 0.10196078431372549,
+                          "g": 0.13333333333333333,
+                          "b": 0.17254901960784313,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "blendMode": "NORMAL",
+                        "visible": false,
+                        "color": {
+                          "r": 0.592156862745098,
+                          "g": 0.592156862745098,
+                          "b": 0.592156862745098,
+                          "a": 1
+                        }
+                      }
+                    ],
+                    "strokeWeight": 0,
+                    "strokeAlign": "CENTER",
+                    "styles": {
+                      "fill": "1:97"
+                    },
+                    "exportSettings": [],
+                    "effects": []
+                  }
+                ],
+                "absoluteBoundingBox": {
+                  "x": 2726,
+                  "y": 281,
+                  "width": 106,
+                  "height": 106
+                },
+                "constraints": {
+                  "vertical": "SCALE",
+                  "horizontal": "SCALE"
+                },
+                "backgroundColor": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "clipsContent": false,
+                "layoutGrids": [],
+                "exportSettings": [],
+                "effects": [],
+                "componentId": "1:16"
+              },
+              {
+                "id": "1:72",
+                "name": "Oval 2 Copy 13",
+                "type": "VECTOR",
+                "blendMode": "NORMAL",
+                "absoluteBoundingBox": {
+                  "x": 2390,
+                  "y": 600.0999755859375,
+                  "width": 106,
+                  "height": 106
+                },
+                "constraints": {
+                  "vertical": "SCALE",
+                  "horizontal": "SCALE"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.8980392156862745,
+                      "g": 0.10196078431372549,
+                      "b": 0.2549019607843137,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "visible": false,
+                    "color": {
+                      "r": 0.592156862745098,
+                      "g": 0.592156862745098,
+                      "b": 0.592156862745098,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokeWeight": 0,
+                "strokeAlign": "CENTER",
+                "styles": {
+                  "fill": "1:98"
+                },
+                "exportSettings": [],
+                "effects": []
+              },
+              {
+                "id": "1:73",
+                "name": "Oval 2 Copy 2",
+                "type": "VECTOR",
+                "blendMode": "NORMAL",
+                "absoluteBoundingBox": {
+                  "x": 2726,
+                  "y": 600.0999755859375,
+                  "width": 106,
+                  "height": 106
+                },
+                "constraints": {
+                  "vertical": "SCALE",
+                  "horizontal": "SCALE"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.7058823529411765,
+                      "g": 0.3333333333333333,
+                      "b": 1,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "visible": false,
+                    "color": {
+                      "r": 0.592156862745098,
+                      "g": 0.592156862745098,
+                      "b": 0.592156862745098,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokeWeight": 0,
+                "strokeAlign": "CENTER",
+                "styles": {
+                  "fill": "1:100"
+                },
+                "exportSettings": [],
+                "effects": []
+              },
+              {
+                "id": "1:74",
+                "name": "Oval 2 Copy 13",
+                "type": "VECTOR",
+                "blendMode": "NORMAL",
+                "absoluteBoundingBox": {
+                  "x": 2385,
+                  "y": 279,
+                  "width": 106,
+                  "height": 106
+                },
+                "constraints": {
+                  "vertical": "SCALE",
+                  "horizontal": "SCALE"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.27450980392156865,
+                      "g": 0.9568627450980393,
+                      "b": 0.5058823529411764,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "visible": false,
+                    "color": {
+                      "r": 0.592156862745098,
+                      "g": 0.592156862745098,
+                      "b": 0.592156862745098,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokeWeight": 0,
+                "strokeAlign": "CENTER",
+                "styles": {
+                  "fill": "1:95"
+                },
+                "exportSettings": [],
+                "effects": []
+              },
+              {
+                "id": "1:78",
+                "name": "Oval 2 Copy 14",
+                "type": "VECTOR",
+                "blendMode": "NORMAL",
+                "absoluteBoundingBox": {
+                  "x": 2558,
+                  "y": 279,
+                  "width": 106,
+                  "height": 106
+                },
+                "constraints": {
+                  "vertical": "SCALE",
+                  "horizontal": "SCALE"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.26666666666666666,
+                      "g": 0.7568627450980392,
+                      "b": 0.4627450980392157,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "visible": false,
+                    "color": {
+                      "r": 0.592156862745098,
+                      "g": 0.592156862745098,
+                      "b": 0.592156862745098,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokeWeight": 0,
+                "strokeAlign": "CENTER",
+                "styles": {
+                  "fill": "1:96"
+                },
+                "exportSettings": [],
+                "effects": []
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 2385,
+              "y": 279,
+              "width": 447,
+              "height": 667
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "backgroundColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "clipsContent": false,
+            "exportSettings": [],
+            "effects": []
+          },
+          {
+            "id": "54:12",
+            "name": "Sizes",
+            "type": "GROUP",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "28:2",
+                "name": "Hero",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3028,
+                  "y": 259,
+                  "width": 167,
+                  "height": 99
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Hero",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 72,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 84.375,
+                  "lineHeightPercent": 100
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "28:17"
+                }
+              },
+              {
+                "id": "28:3",
+                "name": "Heading 1",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3028,
+                  "y": 353,
+                  "width": 265,
+                  "height": 77
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Heading 1",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 56,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 65.625,
+                  "lineHeightPercent": 100
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "28:18"
+                }
+              },
+              {
+                "id": "28:5",
+                "name": "Heading 2",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3028,
+                  "y": 437,
+                  "width": 170,
+                  "height": 50
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Heading 2",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 36,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 42.1875,
+                  "lineHeightPercent": 100
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "49:4"
+                }
+              },
+              {
+                "id": "28:7",
+                "name": "Heading 3",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3028,
+                  "y": 503,
+                  "width": 133,
+                  "height": 39
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Heading 3",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 28,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 32.8125,
+                  "lineHeightPercent": 100
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "49:5"
+                }
+              },
+              {
+                "id": "28:10",
+                "name": "Large",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3028,
+                  "y": 563,
+                  "width": 63,
+                  "height": 33
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Large",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 24,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 28.125,
+                  "lineHeightPercent": 100
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "28:21"
+                }
+              },
+              {
+                "id": "28:12",
+                "name": "Regular",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3028,
+                  "y": 621,
+                  "width": 57,
+                  "height": 22
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Regular ",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 16,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 18.75,
+                  "lineHeightPercent": 100
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "28:22"
+                }
+              },
+              {
+                "id": "28:13",
+                "name": "Small",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3028,
+                  "y": 672,
+                  "width": 36,
+                  "height": 20
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Small",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 16.40625,
+                  "lineHeightPercent": 100
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "28:23"
+                }
+              },
+              {
+                "id": "28:14",
+                "name": "Microcopy",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3028,
+                  "y": 721,
+                  "width": 59,
+                  "height": 17
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Microcopy",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 12,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 14.0625,
+                  "lineHeightPercent": 100
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "28:24"
+                }
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 3028,
+              "y": 259,
+              "width": 265,
+              "height": 479
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "backgroundColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "clipsContent": false,
+            "exportSettings": [],
+            "effects": []
+          },
+          {
+            "id": "54:10",
+            "name": "Line heights",
+            "type": "GROUP",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "44:2",
+                "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet pulvinar diam. Duis vel nunc viverra, euismod dolor nec, iaculis neque. Duis vitae neque dignissim, bibendum augue et, ultrices enim. Donec eu fermentum augue. Fusce venenatis orci justo, ut venenatis diam accumsan quis. Duis nec tellus quis odio egestas sodales. Donec a sem nisi. Sed non urna sed dolor pharetra efficitur. Vivamus in tristique eros, id posuere purus. Nunc luctus magna vitae quam porttitor, vel rutrum ante euismod.",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3550,
+                  "y": 632,
+                  "width": 604,
+                  "height": 251
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet pulvinar diam. Duis vel nunc viverra, euismod dolor nec, iaculis neque. Duis vitae neque dignissim, bibendum augue et, ultrices enim. Donec eu fermentum augue. Fusce venenatis orci justo, ut venenatis diam accumsan quis. Duis nec tellus quis odio egestas sodales. Donec a sem nisi. Sed non urna sed dolor pharetra efficitur. Vivamus in tristique eros, id posuere purus. Nunc luctus magna vitae quam porttitor, vel rutrum ante euismod.",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 16,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 28.125,
+                  "lineHeightPercent": 150
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "60:1"
+                }
+              },
+              {
+                "id": "45:2",
+                "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3550,
+                  "y": 347,
+                  "width": 936,
+                  "height": 181
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-Bold",
+                  "fontWeight": 700,
+                  "fontSize": 56,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 78.75,
+                  "lineHeightPercent": 120
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "60:0"
+                }
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 3550,
+              "y": 347,
+              "width": 936,
+              "height": 536
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "backgroundColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "clipsContent": false,
+            "exportSettings": [],
+            "effects": []
+          },
+          {
+            "id": "54:8",
+            "name": "Weights",
+            "type": "GROUP",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "53:1",
+                "name": "Extra bold",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3034,
+                  "y": 915,
+                  "width": 189,
+                  "height": 45
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Extra bold",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-ExtraBold",
+                  "fontWeight": 800,
+                  "fontSize": 36,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 45,
+                  "lineHeightPercent": 106.66666666666667
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "54:4"
+                }
+              },
+              {
+                "id": "53:2",
+                "name": "Bold",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3034,
+                  "y": 980,
+                  "width": 81,
+                  "height": 45
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Bold",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-Bold",
+                  "fontWeight": 700,
+                  "fontSize": 36,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 45,
+                  "lineHeightPercent": 106.66666666666667
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "54:5"
+                }
+              },
+              {
+                "id": "53:4",
+                "name": "Semi bold",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3034,
+                  "y": 1049,
+                  "width": 172,
+                  "height": 45
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Semi bold",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-SemiBold",
+                  "fontWeight": 600,
+                  "fontSize": 36,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 45,
+                  "lineHeightPercent": 106.66666666666667
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "54:6"
+                }
+              },
+              {
+                "id": "53:6",
+                "name": "Normal",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 3034,
+                  "y": 1118,
+                  "width": 127,
+                  "height": 45
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "exportSettings": [],
+                "effects": [],
+                "characters": "Normal",
+                "style": {
+                  "fontFamily": "Open Sans",
+                  "fontPostScriptName": "OpenSans-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 36,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 45,
+                  "lineHeightPercent": 106.66666666666667
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "54:7"
+                }
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 3034,
+              "y": 915,
+              "width": 189,
+              "height": 248
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "backgroundColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "clipsContent": false,
+            "exportSettings": [],
+            "effects": []
+          },
+          {
+            "id": "63:1",
+            "name": "Secondary colour",
+            "type": "TEXT",
+            "blendMode": "PASS_THROUGH",
+            "absoluteBoundingBox": {
+              "x": 2393,
+              "y": 1127,
+              "width": 496,
+              "height": 43.507652282714844
+            },
+            "constraints": {
+              "vertical": "SCALE",
+              "horizontal": "SCALE"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.10196078431372549,
+                  "g": 0.13333333333333333,
+                  "b": 0.17254901960784313,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 0,
+            "strokeAlign": "CENTER",
+            "exportSettings": [],
+            "effects": [],
+            "characters": "Shadows",
+            "style": {
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Bold",
+              "fontWeight": 700,
+              "fontSize": 36,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": 0,
+              "lineHeightPx": 45,
+              "lineHeightPercent": 106.66666666666667
+            },
+            "characterStyleOverrides": [],
+            "styleOverrideTable": {}
+          },
+          {
+            "id": "63:4",
+            "name": "Inset",
+            "type": "TEXT",
+            "blendMode": "PASS_THROUGH",
+            "absoluteBoundingBox": {
+              "x": 2395,
+              "y": 1208,
+              "width": 77,
+              "height": 32
             },
             "constraints": {
               "vertical": "TOP",
@@ -2105,9 +2128,59 @@
                 "type": "SOLID",
                 "blendMode": "NORMAL",
                 "color": {
-                  "r": 0.7607843137254902,
-                  "g": 0.01568627450980392,
-                  "b": 0.9137254901960784,
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "OUTSIDE",
+            "exportSettings": [],
+            "effects": [],
+            "characters": "Inset",
+            "style": {
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Regular",
+              "fontWeight": 400,
+              "fontSize": 24,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": 0,
+              "lineHeightPx": 28.125,
+              "lineHeightPercent": 100
+            },
+            "characterStyleOverrides": [],
+            "styleOverrideTable": {},
+            "styles": {
+              "text": "28:21"
+            }
+          },
+          {
+            "id": "63:5",
+            "name": "Rectangle",
+            "type": "RECTANGLE",
+            "blendMode": "PASS_THROUGH",
+            "absoluteBoundingBox": {
+              "x": 2393,
+              "y": 1438.3214111328125,
+              "width": 187.9375,
+              "height": 67.67857360839844
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
                   "a": 1
                 }
               }
@@ -2116,7 +2189,130 @@
             "strokeWeight": 1,
             "strokeAlign": "INSIDE",
             "exportSettings": [],
-            "effects": []
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.25098039215686274
+                },
+                "blendMode": "NORMAL",
+                "offset": {
+                  "x": 5,
+                  "y": 5
+                },
+                "radius": 8
+              }
+            ],
+            "styles": {
+              "effect": "63:9"
+            }
+          },
+          {
+            "id": "63:7",
+            "name": "Rectangle",
+            "type": "RECTANGLE",
+            "blendMode": "PASS_THROUGH",
+            "absoluteBoundingBox": {
+              "x": 2393,
+              "y": 1261.3902587890625,
+              "width": 187.9375,
+              "height": 67.67857360839844
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "INSIDE",
+            "exportSettings": [],
+            "effects": [
+              {
+                "type": "INNER_SHADOW",
+                "visible": true,
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.25098039215686274
+                },
+                "blendMode": "NORMAL",
+                "offset": {
+                  "x": -5,
+                  "y": 5
+                },
+                "radius": 8
+              }
+            ],
+            "styles": {
+              "effect": "63:8"
+            }
+          },
+          {
+            "id": "63:6",
+            "name": "Drop",
+            "type": "TEXT",
+            "blendMode": "PASS_THROUGH",
+            "absoluteBoundingBox": {
+              "x": 2395,
+              "y": 1397,
+              "width": 101,
+              "height": 32
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "fills": [
+              {
+                "type": "SOLID",
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "OUTSIDE",
+            "exportSettings": [],
+            "effects": [],
+            "characters": "Drop",
+            "style": {
+              "fontFamily": "Open Sans",
+              "fontPostScriptName": "OpenSans-Regular",
+              "fontWeight": 400,
+              "fontSize": 24,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": 0,
+              "lineHeightPx": 28.125,
+              "lineHeightPercent": 100
+            },
+            "characterStyleOverrides": [],
+            "styleOverrideTable": {},
+            "styles": {
+              "text": "28:21"
+            }
           }
         ],
         "backgroundColor": {
@@ -2181,6 +2377,70 @@
     "1:96": {
       "name": "Mint dark",
       "styleType": "FILL"
+    },
+    "28:17": {
+      "name": "4xl",
+      "styleType": "TEXT"
+    },
+    "28:18": {
+      "name": "3xl",
+      "styleType": "TEXT"
+    },
+    "49:4": {
+      "name": "2xl",
+      "styleType": "TEXT"
+    },
+    "49:5": {
+      "name": "xl",
+      "styleType": "TEXT"
+    },
+    "28:21": {
+      "name": "lg",
+      "styleType": "TEXT"
+    },
+    "28:22": {
+      "name": "md",
+      "styleType": "TEXT"
+    },
+    "28:23": {
+      "name": "sm",
+      "styleType": "TEXT"
+    },
+    "28:24": {
+      "name": "xs",
+      "styleType": "TEXT"
+    },
+    "60:1": {
+      "name": "Normal",
+      "styleType": "TEXT"
+    },
+    "60:0": {
+      "name": "heading",
+      "styleType": "TEXT"
+    },
+    "54:4": {
+      "name": "Extra Bold",
+      "styleType": "TEXT"
+    },
+    "54:5": {
+      "name": "Bold",
+      "styleType": "TEXT"
+    },
+    "54:6": {
+      "name": "Semi Bold",
+      "styleType": "TEXT"
+    },
+    "54:7": {
+      "name": "Normal",
+      "styleType": "TEXT"
+    },
+    "63:9": {
+      "name": "drop",
+      "styleType": "EFFECT"
+    },
+    "63:8": {
+      "name": "inset",
+      "styleType": "EFFECT"
     }
   }
 }

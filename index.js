@@ -1,2 +1,2 @@
-const { scrapeFig } = require("./scrape-fig");
+const { scrapeFig } = require('./scrape-fig');
 scrapeFig()

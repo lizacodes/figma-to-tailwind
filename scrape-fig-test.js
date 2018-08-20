@@ -1,5 +1,5 @@
 const isEqual = require("lodash.isequal")
-const { parseColours } = require("./scrape-fig");
+const { parseBlah, groupIsSizes, generateColour } = require("./scrape-fig");
 const sampleJson = require("./sample.json");
 
 const goldGroup = {
@@ -35,41 +35,43 @@ const skyGroup = {
 }
 
 const testParseColours = () => {
-    const parsedColours = parseColours(sampleJson.document, sampleJson.styles)
+    const parsedColours = parseBlah(sampleJson.document, sampleJson.styles)(generateColour)
     const expectedResults = {
-        gold: 'rgba(252,178,22,1)',
-        sky: 'rgba(0,117,229,1)',
-        just_green: 'rgba(35,157,78,1)',
-        steel: 'rgba(26,34,44,1)',
-        cherry: 'rgba(230,26,65,1)',
-        violet: 'rgba(195,4,234,1)',
-        mint: 'rgba(48,213,201,1)',
-        mint_dark: 'rgba(0,132,123,1)'
-    }
+      gold: 'rgba(252,178,22,1)',
+      sky: 'rgba(0,117,229,1)',
+      justGreen: 'rgba(35,157,78,1)',
+      steel: 'rgba(26,34,44,1)',
+      cherry: 'rgba(230,26,65,1)',
+      violet: 'rgba(181,85,256,1)',
+      mint: 'rgba(70,245,130,1)',
+      mintDark: 'rgba(68,194,118,1)'
+   }
     console.log(parsedColours)
     console.log(isEqual(parsedColours, expectedResults))
 }
 
 const testEmptyColours = () => {
-    const parsedColours = parseColours({}, sampleJson.styles)
+    const parsedColours = parseBlah({}, sampleJson.styles)(generateColour)
     const expectedResults = {}
     console.log(parsedColours)
     console.log(isEqual(parsedColours, expectedResults))
 }
 const testShallowColours = () => {
-    const parsedColours = parseColours(goldGroup, sampleJson.styles)
+    const parsedColours = parseBlah(goldGroup, sampleJson.styles)(generateColour)
     const expectedResults = { gold: 'rgba(252,178,22,1)' }
     console.log(parsedColours)
     console.log(isEqual(parsedColours, expectedResults))
 }
 
 const testNestedColours = () => {
-    const parsedColours = parseColours({
+  const goldGroupWithChildren = {
         ...goldGroup,
         children: [skyGroup]
-    }, sampleJson.styles)
+    };
+    const parsedColours = parseBlah(goldGroupWithChildren, sampleJson.styles)(generateColour)
     const expectedResults = { gold: 'rgba(252,178,22,1)', sky: 'rgba(0,117,229,1)', }
     console.log(parsedColours)
     console.log(isEqual(parsedColours, expectedResults))
 }
+
 [testEmptyColours, testParseColours, testShallowColours, testNestedColours].forEach(fn => fn())
