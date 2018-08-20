@@ -42,10 +42,10 @@ View the full documentation at https://tailwindcss.com.
 |
 */
 
-const colors = require('../colours.json');
-const textSizes = require('../text-sizes.json');
-const lineHeights = require('../line-heights.json');
-const fontWeights = require('../font-weights.json');
+const colors = require('./figma-styles/colours.json');
+const textSizes = require('./figma-styles/text-sizes.json');
+const lineHeights = require('./figma-styles/line-heights.json');
+const fontWeights = require('./figma-styles/font-weights.json');
 
 module.exports = {
 

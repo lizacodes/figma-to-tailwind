@@ -1,6 +1,6 @@
 const isEqual = require("lodash.isequal")
-const { parseBlah, groupIsSizes, generateColour } = require("./scrape-fig");
-const sampleJson = require("./sample.json");
+const { parseStyles, generateColour } = require("./scrape-fig");
+const sampleJson = require("./src/figma-styles/sample.json");
 
 const goldGroup = {
     fills: [
@@ -35,7 +35,7 @@ const skyGroup = {
 }
 
 const testParseColours = () => {
-    const parsedColours = parseBlah(sampleJson.document, sampleJson.styles)(generateColour)
+    const parsedColours = parseStyles(sampleJson.document, sampleJson.styles)(generateColour)
     const expectedResults = {
       gold: 'rgba(252,178,22,1)',
       sky: 'rgba(0,117,229,1)',
@@ -51,13 +51,13 @@ const testParseColours = () => {
 }
 
 const testEmptyColours = () => {
-    const parsedColours = parseBlah({}, sampleJson.styles)(generateColour)
+    const parsedColours = parseStyles({}, sampleJson.styles)(generateColour)
     const expectedResults = {}
     console.log(parsedColours)
     console.log(isEqual(parsedColours, expectedResults))
 }
 const testShallowColours = () => {
-    const parsedColours = parseBlah(goldGroup, sampleJson.styles)(generateColour)
+    const parsedColours = parseStyles(goldGroup, sampleJson.styles)(generateColour)
     const expectedResults = { gold: 'rgba(252,178,22,1)' }
     console.log(parsedColours)
     console.log(isEqual(parsedColours, expectedResults))
@@ -68,7 +68,7 @@ const testNestedColours = () => {
         ...goldGroup,
         children: [skyGroup]
     };
-    const parsedColours = parseBlah(goldGroupWithChildren, sampleJson.styles)(generateColour)
+    const parsedColours = parseStyles(goldGroupWithChildren, sampleJson.styles)(generateColour)
     const expectedResults = { gold: 'rgba(252,178,22,1)', sky: 'rgba(0,117,229,1)', }
     console.log(parsedColours)
     console.log(isEqual(parsedColours, expectedResults))
