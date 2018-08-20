@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node scrape-fig-test.js"
+    "test": "node scrape-fig-test.js",
+    "tailwind": "tailwind build src/styles.css -c src/tailwind.js -o dist/styles.css",
+    "buildstyles": "node index.js && npm run tailwind"
   },
   "author": "",
   "license": "ISC",
