@@ -48,14 +48,29 @@ const generateTextSize = (group, figmaStyles) => ({
   })
 })
 
-const parseStyles = (group, figmaStyles) => (extractToTailwind, isStyleGroup = () => true, inStyleGroup = false) => {
-  const currentlyInStyle = inStyleGroup || isStyleGroup(group);
-  const currentStyles = currentlyInStyle ? extractToTailwind(group, figmaStyles) : {};
+const parseStyles = (group, figmaStyles, styleExtaction, currentlyInStyles = {}) => {
+  const stylesCurrentlyIn = Object.entries(styleExtaction).reduce((accu, [styleKey, { groupDeterminer }]) => ({
+    ...accu,
+    [styleKey]: currentlyInStyles[styleKey] || groupDeterminer(group),
+  }), {})
+  const currentStyles = Object.entries(styleExtaction).reduce((accu, [styleKey, { extractor }]) => ({
+    ...accu,
+    ...(stylesCurrentlyIn[styleKey] && {
+      [styleKey]: extractor(group, figmaStyles)
+    })
+  }), {})
+
   if (group.children) {
-    return group.children.reduce((childStyles, child) => ({
-      ...childStyles,
-      ...parseStyles(child, figmaStyles)(extractToTailwind, isStyleGroup, currentlyInStyle)
-    }), currentStyles)
+    return group.children.reduce((childStyles, child) =>{
+      const parsedStyles = parseStyles(child, figmaStyles, styleExtaction, stylesCurrentlyIn, currentStyles);
+      return Object.entries(styleExtaction).reduce((accu, [styleKey, _]) => ({
+        ...accu,
+        [styleKey]: {
+          ...childStyles[styleKey],
+          ...parsedStyles[styleKey]
+        }
+       }), {})
+    }, currentStyles)
   }
 
   return currentStyles;
@@ -73,20 +88,27 @@ const generateFontWeight = (group, figmaStyles) => ({
   })
 })
 
+const styleExtaction = {
+  colours: { extractor: generateColour, groupDeterminer: () => true},
+  textSizes: { extractor: generateTextSize, groupDeterminer: groupIsSizes },
+  lineHeights: { extractor: generateLineHeight, groupDeterminer: groupIsLineHeights },
+  fontWeights: { extractor: generateFontWeight, groupDeterminer: groupIsFontWeights },
+}
+
 const scrapeFig = () =>
   getFile().then((file) => {
-    const styleParser = parseStyles(file.document, file.styles);
-
-    const colours = styleParser(generateColour);
-    const textSizes = styleParser(generateTextSize, groupIsSizes);
-    const lineHeights = styleParser(generateLineHeight, groupIsLineHeights);
-    const fontWeights = styleParser(generateFontWeight, groupIsFontWeights);
+    const {
+      colours,
+      textSizes,
+      lineHeights,
+      fontWeights,
+    } = parseStyles(file.document, file.styles, styleExtaction);
 
     fs.writeFile('./src/figma-styles/sample.json', JSON.stringify(file, null, 2), 'utf-8', () => {
       console.log('Successfully wrote to sample.json');
     });
 
-    fs.writeFile('./src/igma-styles/colours.json', JSON.stringify(colours, null, 2), 'utf-8', () => {
+    fs.writeFile('./src/figma-styles/colours.json', JSON.stringify(colours, null, 2), 'utf-8', () => {
       console.log('Successfully wrote to colours.json')
     });
     fs.writeFile('./src/figma-styles/text-sizes.json', JSON.stringify(textSizes, null, 2), 'utf-8', () => {
@@ -103,4 +125,4 @@ const scrapeFig = () =>
     console.log(e);
   });
 
-module.exports = { scrapeFig, parseStyles, generateColour, groupIsFontWeights, generateColour, groupIsSizes }
+module.exports = { scrapeFig, parseStyles, generateColour, groupIsFontWeights, generateColour, groupIsSizes, styleExtaction }
